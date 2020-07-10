@@ -19,7 +19,7 @@ hr{
     margin-top: 6%;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(98, 98, 98);
     text-align: center;
 }
@@ -39,8 +39,10 @@ display: inline-block;
  .main {
      width: fit-content;
      margin-left: 10%;
+     
  }
 
  img{
      margin: 10px;;
+     float: left;
  }
