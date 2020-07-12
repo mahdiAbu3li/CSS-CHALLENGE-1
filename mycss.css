@@ -134,13 +134,31 @@ clear: both;
 
  }
 
- .grid-container__item{
+ /* .grid-container__item{
      margin: 10px;;
      float: left;
- }
+ } */
+ 
 
+.img1  {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+.text{
+    position: absolute;
+    top: 60px;
+    left: 80px;;
+}
 
+.sub-text {
+    color: gray;
 
+}
+.main-text {
+    color: white;
+    font-size: 40px;
+}
 
 
  /* -------------------------------------------------section 3----------------------------------------------- */
