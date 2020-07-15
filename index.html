@@ -5,6 +5,7 @@
     <title>css challenge</title>
 
     <link rel="stylesheet" type="text/css" href="mycss.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -33,7 +34,7 @@
     <h1 class="section2__header">Epic Spot</h1>
     <div class="main">
 
-        <div class="img1">
+        <div class="img1 img1-custom">
             <img src="img5.PNG" class="grid-container__item" alt="ksjdf">
             <div class="text">
                 <div class="sub-text">SOLHEIMASANDUR</div>
@@ -43,32 +44,31 @@
         <div class="img1">
             <img src="img2.PNG" class="grid-container__item" alt="ksjdf">
             <div class="text">
-                <div class="sub-text">SOLHEIMASANDUR sdgdsgsdgsdgsdgsdg</div>
+                <div class="sub-text">SOLHEIMASANDUR </div>
                 <div class="main-text">DC - 3 crash site</div>
             </div>
         </div>
         <div class="img1">
             <img src="img1.PNG" class="grid-container__item" alt="ksjdf">
             <div class="text">
-                <div class="sub-text">SOLHEIMASANDUR sdgdsgsdgsdgsdgsdg</div>
+                <div class="sub-text">SOLHEIMASANDUR </div>
                 <div class="main-text">DC - 3 crash site</div>
             </div>
         </div>
         <div class="img1">
             <img src="img4.PNG" class="grid-container__item" alt="ksjdf">
             <div class="text">
-                <div class="sub-text">SOLHEIMASANDUR sdgdsgsdgsdgsdgsdg</div>
+                <div class="sub-text">SOLHEIMASANDUR </div>
                 <div class="main-text">DC - 3 crash site</div>
             </div>
         </div>
         <div class="img1">
             <img src="img3.PNG" class="grid-container__item" alt="ksjdf">
             <div class="text">
-                <div class="sub-text">SOLHEIMASANDUR sdgdsgsdgsdgsdgsdg</div>
+                <div class="sub-text">SOLHEIMASANDUR </div>
                 <div class="main-text">DC - 3 crash site</div>
             </div>
         </div>
-
 
 
     </div>
@@ -77,18 +77,21 @@
 
 
 
-    <!-- <img src="mountain.jpg"> -->
-    <div class="background">
-        <h1>Get your guid</h1>
-        <span>GUIDE TO CONQUER OF FIRE & ICE</span>
-        <form>
-            <label for="name-input">name </label>
-            <input type="text" id="name-input" placeholder="NAME">
-
+    
+    <div class="section3">
+        <h1 class="section3__h1">Get your guid</h1>
+        <span class="section3__span">GUIDE TO CONQUER OF FIRE & ICE</span>
+        
+        <form class="section3__form">
+        <div class="float__label">
+            <label for="name-input" class="form__label">name </label>
+            <input type="text" id="name-input" class="section3__input" placeholder="name">
+        </div>
             <br>
-            <label for="email-input">email </label>
-            <input type="email" id="email-input" placeholder="E-MAIL">
-
+            <div class="float__label">
+            <label for="email-input" class="form__label">email </label>
+            <input type="email" id="email-input" class="section3__input" placeholder="email"">
+            </div>
             <br>
             <button class="form-button" type="submit">SUBMIT</button>
         </form>
